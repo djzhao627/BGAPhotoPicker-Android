@@ -13,7 +13,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.MomentListActivity"
-            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +22,9 @@
         </activity>
         <activity
             android:name=".activity.MomentAddActivity"
-            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".activity.SystemGalleryActivity"
-            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
     </application>
 

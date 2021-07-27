@@ -10,7 +10,6 @@
         <activity
             android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPreviewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"
             android:theme="@style/BGAPPTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
@@ -18,7 +17,6 @@
         <activity
             android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPickerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"
             android:theme="@style/BGAPPTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
@@ -26,7 +24,6 @@
         <activity
             android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPickerPreviewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"
             android:theme="@style/BGAPPTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
         
